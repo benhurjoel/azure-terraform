@@ -1,0 +1,2 @@
+At the time of uploading this script, there's no Powershell/Terraform module for setting up Service Health alert on Azure Monitor; the workaround is to inject an ARM template to Terraform script.
+Service Health Alerts require a Storage Account and an Action Group to be created in advance. The Action Group name is passed to the ARM Script as a parameter.
